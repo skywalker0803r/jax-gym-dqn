@@ -1,0 +1,5 @@
+# Install inside Linux/WSL2 for CUDA; use plain `jax` for CPU-only Windows checks.
+jax[cuda12]>=0.4.20
+flax>=0.7.5
+optax>=0.1.7
+gymnasium[classic-control]>=0.29.1
